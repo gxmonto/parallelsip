@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.0.3 — 2026-11-18
+
+- Fixed the speech model failing to download ("fetch failed") and update checks not working behind a company proxy or firewall. The app now uses the same network path as your browser.
+- ParallelSIP for Mac (Apple Silicon): a .dmg is now part of every release.
+
+## 2.0.2 — 2026-11-13
+
+- Fixed call transcription: it stopped at once with "speech engine stopped" in 2.0.0 and 2.0.1.
+- Background image and title-bar icon are now two separate choices in Settings → General. The background shows on every theme; your own icon shows on the Branded and Custom themes, and every other theme keeps the ParallelSIP mark.
+- New "Background size" choice, like a desktop wallpaper: Watermark, Fill, Fit, Stretch, Tile or Centre.
+- The minimise/maximise/close buttons change colour as soon as you pick a theme, not only after Save.
+- Transcripts read as a conversation: speech bubbles, yours on the right, that slide in as each person speaks.
+- A ringing-phone icon on incoming calls, in the call card and in the incoming-call popup.
+
 ## 2.0.1 — 2026-11-13
 
 - Updates now come only from the official release page: the "Update server" field is gone from Settings.

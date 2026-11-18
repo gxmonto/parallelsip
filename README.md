@@ -1,6 +1,6 @@
 # ParallelSIP
 
-A two-line SIP softphone for Windows and Linux.
+A two-line SIP softphone for Windows, Linux and macOS.
 
 - Two SIP accounts at once, several calls, hold and swap.
 - Conference calls: hold or drop one person while the others continue.
@@ -16,9 +16,12 @@ Download the latest version from
 
 - Windows: `ParallelSIP-Installer-<version>.exe` (recommended).
 - Debian/Ubuntu: `.deb` · Fedora/RHEL: `.rpm` · other Linux: `.AppImage`.
+- macOS (Apple Silicon): `.dmg`. Updates on the Mac are downloaded by hand.
 
 Windows may show a SmartScreen warning on first install: *More info → Run
-anyway*. Each release includes `SHA256SUMS.txt` to verify downloads.
+anyway*. The first time on a Mac, macOS blocks the app: System Settings →
+Privacy & Security → *Open Anyway*. Each release includes `SHA256SUMS.txt`
+to verify downloads.
 
 ## Set up a line
 
