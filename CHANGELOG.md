@@ -1,8 +1,11 @@
 # Changelog
 
-## 2.0.3 — 2026-11-18
+## 2.0.3 — 2026-11-19
 
+- Fixed incoming calls not reaching ParallelSIP when the same extension is also set up on other phones.
+- Fixed calls staying on screen after the other person hung up.
 - Fixed the speech model failing to download ("fetch failed") and update checks not working behind a company proxy or firewall. The app now uses the same network path as your browser.
+- Opening ParallelSIP a second time no longer disturbs the copy that is already running.
 - ParallelSIP for Mac (Apple Silicon): a .dmg is now part of every release.
 
 ## 2.0.2 — 2026-11-13
